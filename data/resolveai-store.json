@@ -1,0 +1,650 @@
+{
+  "version": 1,
+  "sequence": 1005,
+  "complaints": [
+    {
+      "id": "CMP-DEMO-101",
+      "isDemo": true,
+      "trackingToken": "demo-public-101",
+      "fullName": "Aarav Sharma",
+      "email": "aarav.sharma@campus.edu",
+      "title": "[DEMO] College Wi-Fi not working in Engineering Block",
+      "description": "Campus Wi-Fi SSID \"CampusNet-5G\" has been completely unreachable on the 2nd and 3rd floors of the Engineering Block since yesterday morning. Students cannot access online lab portals or submit assignments.",
+      "location": "Engineering Block, 2nd & 3rd Floor Labs",
+      "detectedLanguage": "English",
+      "englishTranslation": "Campus Wi-Fi SSID \"CampusNet-5G\" has been unreachable on the 2nd and 3rd floors of the Engineering Block since yesterday morning, blocking online lab access.",
+      "category": "Technical Issues",
+      "priority": "High",
+      "urgencyScore": 8,
+      "sentiment": "Frustrated",
+      "sentimentReason": "Multi-day outage directly blocking academic assignment submissions.",
+      "priorityReason": "Affects multiple academic labs and blocks coursework portals across two entire floors.",
+      "assignedDepartment": "IT Department",
+      "status": "In Progress",
+      "needsHumanReview": false,
+      "escalationReason": null,
+      "suggestedResolution": "Inspect distribution switch SW-ENG-02 and access points AP-204 through AP-212; verify DHCP lease pool capacity and restore RADIUS authentication.",
+      "possibleDuplicateOf": null,
+      "duplicateReason": null,
+      "aiAnalysisStatus": "gemini",
+      "adminComments": [
+        {
+          "id": "cmt-demo-101-1",
+          "authorName": "Rohan Kulkarni",
+          "authorRole": "IT Department Lead",
+          "comment": "Identified faulty fiber uplink SFP module on Floor 2 distribution rack. Replacement module is currently being installed.",
+          "createdAt": "2026-11-14T03:15:21.792Z"
+        }
+      ],
+      "closureSummary": null,
+      "resolvedBy": null,
+      "resolvedAt": null,
+      "createdAt": "2026-11-13T15:15:21.792Z",
+      "updatedAt": "2026-11-14T03:15:21.792Z",
+      "statusHistory": [
+        {
+          "step": "Complaint Submitted",
+          "status": "Submitted",
+          "actor": "Aarav Sharma",
+          "note": "Complaint submitted via ResolveAI portal.",
+          "timestamp": "2026-11-13T15:15:21.792Z"
+        },
+        {
+          "step": "AI Analysed",
+          "status": "AI Analysed",
+          "actor": "ResolveAI Triage Agent",
+          "note": "Classified as Technical Issues with High priority (Sentiment: Frustrated).",
+          "timestamp": "2026-11-13T15:15:57.792Z"
+        },
+        {
+          "step": "Assigned",
+          "status": "Assigned",
+          "actor": "ResolveAI Routing Engine",
+          "note": "Automatically assigned to IT Department.",
+          "timestamp": "2026-11-13T15:16:33.792Z"
+        },
+        {
+          "step": "In Progress",
+          "status": "In Progress",
+          "actor": "Rohan Kulkarni",
+          "note": "Network technician dispatched; SFP uplink replacement underway.",
+          "timestamp": "2026-11-14T03:15:21.792Z"
+        }
+      ],
+      "workflowStages": [
+        {
+          "stage": 1,
+          "name": "Receive Complaint",
+          "executed": true,
+          "executedAt": "2026-11-13T15:15:21.792Z",
+          "outcome": "Validated and persisted."
+        },
+        {
+          "stage": 2,
+          "name": "Understand & Analyse",
+          "executed": true,
+          "executedAt": "2026-11-13T15:15:57.792Z",
+          "outcome": "Language: English · Sentiment: Frustrated"
+        },
+        {
+          "stage": 3,
+          "name": "Classify Category & Urgency",
+          "executed": true,
+          "executedAt": "2026-11-13T15:15:57.792Z",
+          "outcome": "Technical Issues · High"
+        },
+        {
+          "stage": 4,
+          "name": "Select Department",
+          "executed": true,
+          "executedAt": "2026-11-13T15:16:33.792Z",
+          "outcome": "IT Department"
+        },
+        {
+          "stage": 5,
+          "name": "Create Assignment",
+          "executed": true,
+          "executedAt": "2026-11-13T15:16:33.792Z",
+          "outcome": "Assigned to IT Department queue"
+        },
+        {
+          "stage": 6,
+          "name": "Monitor Status",
+          "executed": true,
+          "executedAt": "2026-11-14T03:15:21.792Z",
+          "outcome": "Active within SLA window"
+        },
+        {
+          "stage": 7,
+          "name": "Escalate Critical / Overdue",
+          "executed": false
+        },
+        {
+          "stage": 8,
+          "name": "Generate Closure Summary",
+          "executed": false
+        }
+      ]
+    },
+    {
+      "id": "CMP-DEMO-102",
+      "isDemo": true,
+      "trackingToken": "demo-public-102",
+      "fullName": "Priya Nair",
+      "email": "priya.nair@campus.edu",
+      "title": "[DEMO] Water leakage in hostel bathroom",
+      "description": "A burst supply pipe behind the washbasins in Kaveri Hostel Wing B (3rd Floor) is leaking continuously onto the corridor floor, creating slip hazards and wasting water.",
+      "location": "Kaveri Hostel, Wing B, 3rd Floor Washroom",
+      "detectedLanguage": "English",
+      "englishTranslation": "Continuous pipe leakage behind washbasins in Kaveri Hostel Wing B 3rd floor causing flooding and slip hazards.",
+      "category": "Water and Plumbing",
+      "priority": "High",
+      "urgencyScore": 8,
+      "sentiment": "Distressed",
+      "sentimentReason": "Continuous flooding in residential wing creating immediate hygiene and slip risk.",
+      "priorityReason": "Active water leak inside residential hostel requires prompt valve isolation and plumbing repair to prevent structural damage.",
+      "assignedDepartment": "Maintenance Department",
+      "status": "Assigned",
+      "needsHumanReview": false,
+      "escalationReason": null,
+      "suggestedResolution": "Shut off the 3rd-floor Wing B isolation valve immediately, replace the damaged PVC elbow joint, and clear standing water from the corridor.",
+      "possibleDuplicateOf": null,
+      "duplicateReason": null,
+      "aiAnalysisStatus": "gemini",
+      "adminComments": [],
+      "closureSummary": null,
+      "resolvedBy": null,
+      "resolvedAt": null,
+      "createdAt": "2026-11-13T23:15:21.792Z",
+      "updatedAt": "2026-11-13T23:21:21.792Z",
+      "statusHistory": [
+        {
+          "step": "Complaint Submitted",
+          "status": "Submitted",
+          "actor": "Priya Nair",
+          "note": "Complaint submitted via ResolveAI portal.",
+          "timestamp": "2026-11-13T23:15:21.792Z"
+        },
+        {
+          "step": "AI Analysed",
+          "status": "AI Analysed",
+          "actor": "ResolveAI Triage Agent",
+          "note": "Classified as Water and Plumbing with High priority (Sentiment: Distressed).",
+          "timestamp": "2026-11-13T23:16:33.792Z"
+        },
+        {
+          "step": "Assigned",
+          "status": "Assigned",
+          "actor": "ResolveAI Routing Engine",
+          "note": "Automatically assigned to Maintenance Department.",
+          "timestamp": "2026-11-13T23:21:21.792Z"
+        }
+      ],
+      "workflowStages": [
+        {
+          "stage": 1,
+          "name": "Receive Complaint",
+          "executed": true,
+          "executedAt": "2026-11-13T23:15:21.792Z",
+          "outcome": "Validated and persisted."
+        },
+        {
+          "stage": 2,
+          "name": "Understand & Analyse",
+          "executed": true,
+          "executedAt": "2026-11-13T23:16:33.792Z",
+          "outcome": "Language: English · Sentiment: Distressed"
+        },
+        {
+          "stage": 3,
+          "name": "Classify Category & Urgency",
+          "executed": true,
+          "executedAt": "2026-11-13T23:16:33.792Z",
+          "outcome": "Water and Plumbing · High"
+        },
+        {
+          "stage": 4,
+          "name": "Select Department",
+          "executed": true,
+          "executedAt": "2026-11-13T23:21:21.792Z",
+          "outcome": "Maintenance Department"
+        },
+        {
+          "stage": 5,
+          "name": "Create Assignment",
+          "executed": true,
+          "executedAt": "2026-11-13T23:21:21.792Z",
+          "outcome": "Assigned to Maintenance Department queue"
+        },
+        {
+          "stage": 6,
+          "name": "Monitor Status",
+          "executed": true,
+          "executedAt": "2026-11-13T23:21:21.792Z",
+          "outcome": "Monitoring SLA timer"
+        },
+        {
+          "stage": 7,
+          "name": "Escalate Critical / Overdue",
+          "executed": false
+        },
+        {
+          "stage": 8,
+          "name": "Generate Closure Summary",
+          "executed": false
+        }
+      ]
+    },
+    {
+      "id": "CMP-DEMO-103",
+      "isDemo": true,
+      "trackingToken": "demo-public-103",
+      "fullName": "Prof. Vikram Hegde",
+      "email": "vikram.hegde@campus.edu",
+      "title": "[DEMO] Projector not functioning in classroom",
+      "description": "The ceiling-mounted Epson projector in Lecture Hall CS-204 powers on with an amber lamp warning LED and shuts down after 30 seconds, interrupting morning classes.",
+      "location": "Computer Science Building, Lecture Hall CS-204",
+      "detectedLanguage": "English",
+      "englishTranslation": "Ceiling-mounted projector in CS-204 displays an amber lamp warning and shuts down after 30 seconds.",
+      "category": "Technical Issues",
+      "priority": "Medium",
+      "urgencyScore": 5,
+      "sentiment": "Concerned",
+      "sentimentReason": "Equipment malfunction affecting scheduled lectures without immediate safety risk.",
+      "priorityReason": "Disrupts classroom instruction in CS-204, though classes can temporarily relocate or use whiteboard backup.",
+      "assignedDepartment": "IT Department",
+      "status": "Resolved",
+      "needsHumanReview": false,
+      "escalationReason": null,
+      "suggestedResolution": "Test projector lamp hours and HDMI splitter; replace lamp module or swap spare AV unit if ballast has failed.",
+      "possibleDuplicateOf": null,
+      "duplicateReason": null,
+      "aiAnalysisStatus": "gemini",
+      "adminComments": [
+        {
+          "id": "cmt-demo-103-1",
+          "authorName": "Rohan Kulkarni",
+          "authorRole": "IT Department Lead",
+          "comment": "AV technician replaced the depleted projector lamp cartridge, cleaned the intake dust filter, and verified HDMI projection with faculty laptop.",
+          "createdAt": "2026-11-14T01:15:21.792Z"
+        }
+      ],
+      "closureSummary": "Reported issue: The ceiling projector in Lecture Hall CS-204 was shutting down after 30 seconds with an amber lamp warning during classes. Resolution: The IT Department AV technician replaced the depleted lamp cartridge, cleaned the intake air filter, and verified stable HDMI projection before closing the ticket.",
+      "resolvedBy": "Rohan Kulkarni",
+      "resolvedAt": "2026-11-14T01:15:21.792Z",
+      "createdAt": "2026-11-13T01:15:21.792Z",
+      "updatedAt": "2026-11-14T01:15:21.792Z",
+      "statusHistory": [
+        {
+          "step": "Complaint Submitted",
+          "status": "Submitted",
+          "actor": "Prof. Vikram Hegde",
+          "note": "Complaint submitted via ResolveAI portal.",
+          "timestamp": "2026-11-13T01:15:21.792Z"
+        },
+        {
+          "step": "AI Analysed",
+          "status": "AI Analysed",
+          "actor": "ResolveAI Triage Agent",
+          "note": "Classified as Technical Issues with Medium priority (Sentiment: Concerned).",
+          "timestamp": "2026-11-13T01:15:57.792Z"
+        },
+        {
+          "step": "Assigned",
+          "status": "Assigned",
+          "actor": "ResolveAI Routing Engine",
+          "note": "Automatically assigned to IT Department.",
+          "timestamp": "2026-11-13T01:16:33.792Z"
+        },
+        {
+          "step": "In Progress",
+          "status": "In Progress",
+          "actor": "Rohan Kulkarni",
+          "note": "AV technician dispatched to CS-204.",
+          "timestamp": "2026-11-13T17:15:21.792Z"
+        },
+        {
+          "step": "Resolved",
+          "status": "Resolved",
+          "actor": "Rohan Kulkarni",
+          "note": "Lamp cartridge replaced and verified; AI closure summary generated.",
+          "timestamp": "2026-11-14T01:15:21.792Z"
+        }
+      ],
+      "workflowStages": [
+        {
+          "stage": 1,
+          "name": "Receive Complaint",
+          "executed": true,
+          "executedAt": "2026-11-13T01:15:21.792Z",
+          "outcome": "Validated and persisted."
+        },
+        {
+          "stage": 2,
+          "name": "Understand & Analyse",
+          "executed": true,
+          "executedAt": "2026-11-13T01:15:57.792Z",
+          "outcome": "Language: English · Sentiment: Concerned"
+        },
+        {
+          "stage": 3,
+          "name": "Classify Category & Urgency",
+          "executed": true,
+          "executedAt": "2026-11-13T01:15:57.792Z",
+          "outcome": "Technical Issues · Medium"
+        },
+        {
+          "stage": 4,
+          "name": "Select Department",
+          "executed": true,
+          "executedAt": "2026-11-13T01:16:33.792Z",
+          "outcome": "IT Department"
+        },
+        {
+          "stage": 5,
+          "name": "Create Assignment",
+          "executed": true,
+          "executedAt": "2026-11-13T01:16:33.792Z",
+          "outcome": "Assigned to IT Department queue"
+        },
+        {
+          "stage": 6,
+          "name": "Monitor Status",
+          "executed": true,
+          "executedAt": "2026-11-13T17:15:21.792Z",
+          "outcome": "Progressed on schedule"
+        },
+        {
+          "stage": 7,
+          "name": "Escalate Critical / Overdue",
+          "executed": false
+        },
+        {
+          "stage": 8,
+          "name": "Generate Closure Summary",
+          "executed": true,
+          "executedAt": "2026-11-14T01:15:21.792Z",
+          "outcome": "Closure summary saved after admin confirmation"
+        }
+      ]
+    },
+    {
+      "id": "CMP-DEMO-104",
+      "isDemo": true,
+      "trackingToken": "demo-public-104",
+      "fullName": "Ananya Deshmukh",
+      "email": "ananya.d@campus.edu",
+      "title": "[DEMO] Electrical short circuit near Chemistry Lab switchboard",
+      "description": "Sparks and burning smell are coming from the main distribution switchboard outside Organic Chemistry Lab 102. The MCB keeps tripping and students had to evacuate the corridor.",
+      "location": "Science Block, Ground Floor, Chemistry Lab 102 Corridor",
+      "detectedLanguage": "English",
+      "englishTranslation": "Sparks and burning odor from the main distribution switchboard outside Chemistry Lab 102, forcing corridor evacuation.",
+      "category": "Electrical Issues",
+      "priority": "Critical",
+      "urgencyScore": 10,
+      "sentiment": "Distressed",
+      "sentimentReason": "Active electrical sparking and burning smell near a chemical laboratory.",
+      "priorityReason": "Immediate fire and electrocution hazard near Chemistry Lab requires emergency power isolation and human review.",
+      "assignedDepartment": "Maintenance Department",
+      "status": "Escalated",
+      "needsHumanReview": true,
+      "escalationReason": "Critical fire/electrical hazard flagged immediately for human review.",
+      "suggestedResolution": "Immediately isolate the Science Block ground-floor feeder breaker, evacuate adjacent lab rooms, and inspect burnt busbar/MCB terminals with a licensed electrician.",
+      "possibleDuplicateOf": null,
+      "duplicateReason": null,
+      "aiAnalysisStatus": "gemini",
+      "adminComments": [
+        {
+          "id": "cmt-demo-104-1",
+          "authorName": "Dr. Kavitha Rao",
+          "authorRole": "Super Administrator",
+          "comment": "Emergency electrician and campus fire safety officer alerted immediately after critical escalation flag.",
+          "createdAt": "2026-11-14T04:15:21.792Z"
+        }
+      ],
+      "closureSummary": null,
+      "resolvedBy": null,
+      "resolvedAt": null,
+      "createdAt": "2026-11-14T03:45:21.792Z",
+      "updatedAt": "2026-11-14T04:15:21.792Z",
+      "statusHistory": [
+        {
+          "step": "Complaint Submitted",
+          "status": "Submitted",
+          "actor": "Ananya Deshmukh",
+          "note": "Complaint submitted via ResolveAI portal.",
+          "timestamp": "2026-11-14T03:45:21.792Z"
+        },
+        {
+          "step": "AI Analysed",
+          "status": "AI Analysed",
+          "actor": "ResolveAI Triage Agent",
+          "note": "Classified as Electrical Issues with Critical priority (Sentiment: Distressed).",
+          "timestamp": "2026-11-14T03:45:57.792Z"
+        },
+        {
+          "step": "Assigned",
+          "status": "Assigned",
+          "actor": "ResolveAI Routing Engine",
+          "note": "Automatically assigned to Maintenance Department.",
+          "timestamp": "2026-11-14T03:46:33.792Z"
+        },
+        {
+          "step": "Escalated",
+          "status": "Escalated",
+          "actor": "ResolveAI Escalation Guard",
+          "note": "Flagged for immediate human review due to Critical electrical safety severity.",
+          "timestamp": "2026-11-14T03:47:09.792Z"
+        }
+      ],
+      "workflowStages": [
+        {
+          "stage": 1,
+          "name": "Receive Complaint",
+          "executed": true,
+          "executedAt": "2026-11-14T03:45:21.792Z",
+          "outcome": "Validated and persisted."
+        },
+        {
+          "stage": 2,
+          "name": "Understand & Analyse",
+          "executed": true,
+          "executedAt": "2026-11-14T03:45:57.792Z",
+          "outcome": "Language: English · Sentiment: Distressed"
+        },
+        {
+          "stage": 3,
+          "name": "Classify Category & Urgency",
+          "executed": true,
+          "executedAt": "2026-11-14T03:45:57.792Z",
+          "outcome": "Electrical Issues · Critical"
+        },
+        {
+          "stage": 4,
+          "name": "Select Department",
+          "executed": true,
+          "executedAt": "2026-11-14T03:46:33.792Z",
+          "outcome": "Maintenance Department"
+        },
+        {
+          "stage": 5,
+          "name": "Create Assignment",
+          "executed": true,
+          "executedAt": "2026-11-14T03:46:33.792Z",
+          "outcome": "Assigned to Maintenance Department"
+        },
+        {
+          "stage": 6,
+          "name": "Monitor Status",
+          "executed": true,
+          "executedAt": "2026-11-14T03:47:09.792Z",
+          "outcome": "Immediate SLA check triggered"
+        },
+        {
+          "stage": 7,
+          "name": "Escalate Critical / Overdue",
+          "executed": true,
+          "executedAt": "2026-11-14T03:47:09.792Z",
+          "outcome": "Escalated for immediate human review"
+        },
+        {
+          "stage": 8,
+          "name": "Generate Closure Summary",
+          "executed": false
+        }
+      ]
+    },
+    {
+      "id": "CMP-DEMO-105",
+      "isDemo": true,
+      "trackingToken": "demo-public-105",
+      "fullName": "Sneha Patil",
+      "email": "sneha.patil@campus.edu",
+      "title": "[DEMO] Student safety complaint — broken streetlights on hostel pathway",
+      "description": "Four consecutive streetlights along the North Girls Hostel walkway near Gate 3 have been completely dark for three nights, leaving students walking in pitch darkness after evening library hours.",
+      "location": "North Hostel Pathway near Gate 3",
+      "detectedLanguage": "English",
+      "englishTranslation": "Four streetlights along North Hostel walkway near Gate 3 are out for three nights, creating unsafe dark conditions for students.",
+      "category": "Security and Safety",
+      "priority": "Critical",
+      "urgencyScore": 9,
+      "sentiment": "Distressed",
+      "sentimentReason": "Personal safety risk to students walking alone at night.",
+      "priorityReason": "Unlit pedestrian corridor near student hostels creates an urgent night-time personal safety hazard.",
+      "assignedDepartment": "Security Department",
+      "status": "Escalated",
+      "needsHumanReview": true,
+      "escalationReason": "Critical student safety complaint escalated for immediate security patrol & lighting repair.",
+      "suggestedResolution": "Deploy temporary security patrol and portable floodlights along Gate 3 pathway tonight; coordinate with Maintenance to replace faulty LED fixtures tomorrow morning.",
+      "possibleDuplicateOf": null,
+      "duplicateReason": null,
+      "aiAnalysisStatus": "gemini",
+      "adminComments": [],
+      "closureSummary": null,
+      "resolvedBy": null,
+      "resolvedAt": null,
+      "createdAt": "2026-11-14T02:15:21.792Z",
+      "updatedAt": "2026-11-14T02:21:21.792Z",
+      "statusHistory": [
+        {
+          "step": "Complaint Submitted",
+          "status": "Submitted",
+          "actor": "Sneha Patil",
+          "note": "Complaint submitted via ResolveAI portal.",
+          "timestamp": "2026-11-14T02:15:21.792Z"
+        },
+        {
+          "step": "AI Analysed",
+          "status": "AI Analysed",
+          "actor": "ResolveAI Triage Agent",
+          "note": "Classified as Security and Safety with Critical priority (Sentiment: Distressed).",
+          "timestamp": "2026-11-14T02:16:33.792Z"
+        },
+        {
+          "step": "Assigned",
+          "status": "Assigned",
+          "actor": "ResolveAI Routing Engine",
+          "note": "Automatically assigned to Security Department.",
+          "timestamp": "2026-11-14T02:18:21.792Z"
+        },
+        {
+          "step": "Escalated",
+          "status": "Escalated",
+          "actor": "ResolveAI Escalation Guard",
+          "note": "Critical student safety concern escalated for immediate human review.",
+          "timestamp": "2026-11-14T02:21:21.792Z"
+        }
+      ],
+      "workflowStages": [
+        {
+          "stage": 1,
+          "name": "Receive Complaint",
+          "executed": true,
+          "executedAt": "2026-11-14T02:15:21.792Z",
+          "outcome": "Validated and persisted."
+        },
+        {
+          "stage": 2,
+          "name": "Understand & Analyse",
+          "executed": true,
+          "executedAt": "2026-11-14T02:16:33.792Z",
+          "outcome": "Language: English · Sentiment: Distressed"
+        },
+        {
+          "stage": 3,
+          "name": "Classify Category & Urgency",
+          "executed": true,
+          "executedAt": "2026-11-14T02:16:33.792Z",
+          "outcome": "Security and Safety · Critical"
+        },
+        {
+          "stage": 4,
+          "name": "Select Department",
+          "executed": true,
+          "executedAt": "2026-11-14T02:18:21.792Z",
+          "outcome": "Security Department"
+        },
+        {
+          "stage": 5,
+          "name": "Create Assignment",
+          "executed": true,
+          "executedAt": "2026-11-14T02:18:21.792Z",
+          "outcome": "Assigned to Security Department"
+        },
+        {
+          "stage": 6,
+          "name": "Monitor Status",
+          "executed": true,
+          "executedAt": "2026-11-14T02:21:21.792Z",
+          "outcome": "Immediate SLA check triggered"
+        },
+        {
+          "stage": 7,
+          "name": "Escalate Critical / Overdue",
+          "executed": true,
+          "executedAt": "2026-11-14T02:21:21.792Z",
+          "outcome": "Escalated for immediate human review"
+        },
+        {
+          "stage": 8,
+          "name": "Generate Closure Summary",
+          "executed": false
+        }
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-admin-1",
+      "name": "Dr. Kavitha Rao",
+      "email": "admin@resolveai.edu",
+      "passwordHash": "fcce87bbfbf55542762089e70788a218:d185a48fc318011a1f36f8c9fbafe1cbd5e9517c20e503555ac9e2eeb84dc4ab53e17ac430d2ce8ea5e2d57a4b03b8091405a08d04c3257402c6c6a301d885d3",
+      "role": "super_admin",
+      "department": "All Departments"
+    },
+    {
+      "id": "staff-it-1",
+      "name": "Rohan Kulkarni",
+      "email": "it.lead@resolveai.edu",
+      "passwordHash": "81ceeabe962dc97c76c6e91b4e48477b:aa24945d5cd4c82ed20f97a45387901be46a27153ce0976a6615c4a08e308e22d1279cd9046045c0a068eb9f15dc22bcd32d4e2f416b6e0c3d18ea7990b348c2",
+      "role": "dept_lead",
+      "department": "IT Department"
+    },
+    {
+      "id": "staff-maint-1",
+      "name": "Suresh Gowda",
+      "email": "maintenance.lead@resolveai.edu",
+      "passwordHash": "389c9c1fd59bd1228817535b69c8147f:c03084410cddd18f3e5d6e3798e67972f544ace4e4b93b15e96298046c28ac62e2b8e86a42425d1dcb6b3993c881cf96cf3307fe59d6b737f4c2281045846045",
+      "role": "dept_lead",
+      "department": "Maintenance Department"
+    },
+    {
+      "id": "staff-sec-1",
+      "name": "Meenakshi Iyer",
+      "email": "security.lead@resolveai.edu",
+      "passwordHash": "d3cd38608f6ee12afeacfbd8b21f2531:9808f1cfba385f11260319e07d4d568a12da0a45943ac986753011aff13a6b536b0dea756c8c2aa282849eb99020b33c2ad667549bb8541752245761d64204d9",
+      "role": "dept_lead",
+      "department": "Security Department"
+    }
+  ]
+}

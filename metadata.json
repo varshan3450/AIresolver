@@ -1,0 +1,6 @@
+{
+  "name": "ResolveAI",
+  "description": "Your Complaint, Our Priority. An agentic AI-powered complaint management, automated triage, department routing, and resolution assistant powered by Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
